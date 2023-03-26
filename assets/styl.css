@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,7 +17,11 @@ body {
 }
 
 .background-main {
-    background: #d1c6a8;
+    background-color: white;
+}
+
+.backround-row {
+    background-color: #97768a;;
 }
 
 .nav-link {
@@ -26,6 +31,11 @@ body {
 
 }
 
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+}
 
 .nav-link:hover ,.nav-link:focus, .nav-link:active {
     color: black;
@@ -41,12 +51,72 @@ body {
 
 
 .card-header {
-    background-color:transparent;
-    border-bottom: none;
+    background: inherit;
+    border: none;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .alert-transtion {
     z-index: 100;
-    width: 30em;
-    transform: rotate(0deg) translate(100px, 13px) scale(1.1, 1) skew(0deg, 0deg);
+    width: 15em;
+    transform: rotate(0deg) translate(152px, 21px) scale(1.1, 1) skew(0deg, 0deg);
+}
+
+.uni-justify-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-card-img {
+    transform:rotate(347deg) translate(-84px, 7px) scale(1.1, 1) skew(0deg, 0deg);
+    border-radius: 10%;
+    max-width: 150%;
+
+}
+
+.top-card-text{
+    font-size: 3em;
+    color: white;
+    max-width: 20em;
+    margin: 0 auto;
+    padding-left: 3em;
+}
+
+.high-text{
+    font-family: fantasy;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* PHOTO GRID */
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
