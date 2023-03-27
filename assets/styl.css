@@ -4,78 +4,151 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: sans-serif;
     font-size: 16px;
 }
-
-.logo-img {
-    z-index: 100000;
-    position: relative;
-    width: 17em;
-    transform: rotate(12deg) translate(-113px, -35px) scale(1.1, 1) skew(4deg, 0deg);
-}
-
-.background-row{
-    background: pink;
-
-
-}
-.background-main {
-    background-color: white;
-}
-
-
-.nav-link {
-    width: 10em;
-    color: black;
-    font-family: 'Kanit', sans-serif;
-
-}
-
 
 .content {
     width: 70%;
     margin: 0 auto;
 }
 
-.smaller-height-content {
-    height: 20em;
+.background-row {
+    background: pink;
+
+
 }
-.nav-link:hover ,.nav-link:focus, .nav-link:active {
+
+.top-menu-full {
+    margin-top: -1.4em;
+    background-color: white;
+}
+
+
+.nav-link {
+    font-size: 1.3em;
+    width: 10em;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+    transition: 0.4s ease-in;
     color: black;
     border-color: brown;
-    border:1px dotted;
+    border: 1px dotted;
+    -webkit-box-shadow: 38px -18px 52px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 38px -18px 52px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 38px -18px 52px 0px rgba(0, 0, 0, 0.75);
 }
 
-.move-top-col-6-up{
-    height: 6em;
-}
 
-
-.info-panel-photo{
+/* TOP BACKGROUND AND LOGO HOLKOFF*/
+.top-intro {
+    background: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50em;
     opacity: 0.7;
-    width: 100%;
-    margin-top: 2em;
+
+
 }
 
-.info-panel-title:hover{
-    transition: all .5s ease-in;
-    text-shadow: 9px 0px 8px rgb(255 255 255 / 68%);
-}
-.info-panel-title{
-    font-size: 4em;
-    font-family: fantasy;
-    transform: rotate(0deg) translate(5px, -185px) scale(1.1, 1) skew(0deg, 0deg);
-    color:#604348;
+.logo-img {
+    margin-bottom: -40em;
+    z-index: 100000;
+    position: relative;
+    width: 29em;
+    transform: rotate(12deg) translate(36px, -830px) scale(1.1, 1) skew(4deg, 0deg);
 }
 
-.facts{
+
+/*FACTS*/
+
+
+.facts {
     width: 100%;
-    height: 8em;
+    height: 17em;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.facts-item {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fact-number {
+    font-size: 6em;
+    font-family: fantasy;
+}
+
+.fact-note {
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+.label-fact {
+    width: 2em;
+    margin-bottom: -2.8000000000000007em;
+    font-size: 4em;
+    transform: rotate(347deg) translate(1587px, 332px) scale(1.1, 1) skew(0deg, 0deg);
+    font-family: fantasy;
+}
+
+
+/*ALERT AKCE */
+.alert-transtion {
+    margin-bottom: -4em;
+    z-index: 100;
+    width: 16em;
+    transform: rotate(0deg) translate(1348px, -70px) scale(1.1, 1) skew(0deg, 0deg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*WHO WE ARE */
+.who-we-are {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.who-we-are-textarea {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.who-we-are-label {
+    padding: 0.7em;
+    transform: rotate(0deg) translate(597px, -38px) scale(1.1, 1) skew(0deg, 0deg) perspective(10px) rotateX(0deg) rotateY(1deg);
+    background: pink;
+    width: 16em;
+    height: 3em;
+}
+
+.photo-who-we-are {
+    transform: rotate(0deg) translate(25px, -19px) scale(1.1, 1) skew(0deg, 0deg);
+}
+
+
+.calendar {
+    display: flex;
+    justify-content: center;
+}
+
+.galery {
+    margin: 1em;
 }
 
 
@@ -89,11 +162,6 @@ body {
     margin: 0 auto;
 }
 
-.alert-transtion {
-    z-index: 100;
-    width: 15em;
-    transform: rotate(0deg) translate(226px, 36px) scale(1.1, 1) skew(0deg, 0deg);
-}
 
 .uni-justify-align {
     display: flex;
@@ -101,59 +169,123 @@ body {
     align-items: center;
 }
 
-.top-card-img {
-    transform: rotate(347deg) translate(-335px, -54px) scale(1.1, 1) skew(0deg, 0deg);
-    border-radius: 10%;
-    max-width: 150%;
-
+.pos-f-t {
+    display: none;
 }
 
-.top-card-text{
-    font-size: 3em;
-    color: white;
-    max-width: 20em;
-    margin: 0 auto;
-    padding-left: 3em;
-}
 
-.high-text{
-    font-family: fantasy;
-    display: flex;
-    justify-content: space-around;
-}
-
-.label-fact{
-    font-size: 4em;
-    transform: rotate(347deg) translate(-335px, -54px) scale(1.1, 1) skew(0deg, 0deg);
-    font-family: fantasy;
-}
-
-/* PHOTO GRID */
-
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
+@media only screen and  (max-width: 600px) {
+    html, body {
+        overflow-x: hidden;
     }
-}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column {
-        flex: 100%;
+    .top-intro{
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 18em;
+        opacity: 0.7;
+    }
+    .logo-img{
+        margin-bottom: -40em;
+        z-index: 100000;
+        position: relative;
+        width: 11em;
+        transform: rotate(12deg) translate(120px, -539px) scale(1.1, 1) skew(4deg, 0deg);
+    }
+    .navbar{
+        margin-top: -0.4em;
+    }
+    .top-intro{
+        background: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 25em;
+        opacity: 0.7;
+    }
+    .facts{
+        flex-direction: column;
+    }
+
+    .fact-note{
+        font-size: 1em;
+        font-family: fantasy;
+    }
+    .fact-number {
+        font-size: 2em;
+        font-family: fantasy;
+    }
+
+    .pos-f-t {
+        display: block;
+    }
+
+    .who-we-are {
+        display: flex;
+        flex-direction: column;
+    }
+    .photo-who-we-are{
+        display: none;
+    }
+
+    .tmp-easter{
         max-width: 100%;
     }
+
+    .card-header{
+        display: none;
+    }
+
+
+    .alert-transtion {
+        display: none;
+        /*margin-bottom: -4em;
+        z-index: 100;
+        width: 16em;
+        transform: rotate(0deg) translate(1348px, -70px) scale(1.1, 1) skew(0deg, 0deg);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;*/
+    }
+
+    .label-fact {
+        display: none;
+        /* width: 2em;
+         margin-bottom: -2.8000000000000007em;
+         font-size: 4em;
+         transform: rotate(347deg) translate(1587px, 332px) scale(1.1, 1) skew(0deg, 0deg);
+         font-family: fantasy;*/
+    }
+
+    .who-we-are-label {
+        display: none;
+        /* padding: 0.7em;
+         transform: rotate(0deg) translate(597px, -38px) scale(1.1, 1) skew(0deg, 0deg) perspective(10px) rotateX(0deg) rotateY(1deg);
+         background: pink;
+         width: 16em;
+         height: 3em;*/
+    }
+
 }
+
+
+
+@media only screen and  (max-width: 450px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    .logo-img {
+        margin-bottom: -40em;
+        z-index: 100000;
+        position: relative;
+        width: 11em;
+        transform: rotate(12deg) translate(38px, -539px) scale(1.1, 1) skew(4deg, 0deg);
+    }
+}
+
+
+
+
