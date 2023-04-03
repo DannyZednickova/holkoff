@@ -11,8 +11,8 @@
 
 </head>
 
-<body>
-<div class="top-intro" style="background-image: url('img/wpbackground.jpg')">
+<body>`
+<div class="top-intro">
 </div>
 
 <img class="logo-img" src="img/holkoff-nobackgr.png" alt="">

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/holkoff.iml" filepath="$PROJECT_DIR$/.idea/holkoff.iml" />
-      <module fileurl="file://D:/GITHUB/Vue/vue_yablko_dudes/.idea/vue_yablko_dudes.iml" filepath="D:/GITHUB/Vue/vue_yablko_dudes/.idea/vue_yablko_dudes.iml" />
     </modules>
   </component>
 </project>
