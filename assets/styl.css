@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+img {
+    content-visibility: auto;
+
+}
+
 body {
     font-family: sans-serif;
     font-size: 16px;
