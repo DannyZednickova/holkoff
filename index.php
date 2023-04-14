@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="top-menu-full" lang="Utf-8">
+<html lang="Utf-8">
 <head>
     <title>
         Holkoff.cz  </title>
@@ -7,52 +7,57 @@
     <link rel="stylesheet" href="assets/styl.css">
     <link rel="stylesheet" href="assets/icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
-<body>`
+<body>
 <div class="top-intro">
 </div>
 
-<img class="logo-img" src="img/holkoff-nobackgr.png" alt="">
+<div class="logo-sm">
+    <img class="logo-img" src="img/holkoff-nobackgr.png" alt="">-
+</div>
 
 <div class="card text-center top-menu-full">
     <div class="card-header ">
-        <ul class="nav nav-tabs card-header-tabs ">
+        <ul class="nav nav-tabs card-header-tabs smaller">
             <li class="nav-item ">
-                <a class="nav-link" href="#whoweare">O nás</a>
+                <a class="nav-link nav-link-sm" href="#whoweare">O nás</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#calendar">Kalendář akcí </a>
+                <a class="nav-link nav-link-sm" href="#calendar">Kalendář akcí </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#photos"> Fotogalerie </a>
+                <a class="nav-link nav-link-sm" href="#photos"> Fotogalerie </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#footer"> Kde nás najdete </a>
+                <a class="nav-link nav-link-sm" href="#footer"> Kde nás najdete </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" style="color: grey; box-shadow: none;">MERCH</a>
+                <a class="nav-link nav-link-sm" href="#" style="color: grey; box-shadow: none;">MERCH</a>
             </li>
         </ul>
     </div>
 </div>
 
-<!-- RESPONSIVE - HAMBURDER SMALL DEVICE -->
-<div class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div class=" p-4">
-            <h5 class="text-white h4">Collapsed content</h5>
-            <span class="text-muted">Toggleable via the navbar brand.</span>
-        </div>
-    </div>
-    <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </nav>
+
+<!--HAMBURGER -->
+<div class="hamburger-div">
+    <ul class="menu">
+        <li><a class="menuItem" href="#">Home</a></li>
+        <li><a class="menuItem" href="#">Profile</a></li>
+        <li><a class="menuItem" href="#">About</a></li>
+        <li><a class="menuItem" href="#">Contacts</a></li>
+    </ul>
+    <button class="hamburger">
+        <!-- material icons https://material.io/resources/icons/ -->
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+    </button>
 </div>
+
 
 <div class="label-fact">
     !FAKTA!
@@ -105,7 +110,7 @@
 <div class="content">
     <div class="who-we-are" id="whoweare">
         <div class="photo-who-we-are">
-            <img src="img/extreme.jpg" alt="">
+            <img src="img/holky-original/dsc09608-min.jpg" alt="" class="girl-on-top">
         </div>
         <div class="who-we-are-textarea">
             <h1 style="    padding: 1em;">WHO WE ARE </h1>
@@ -154,13 +159,13 @@
     <div class="row galery" id="photos">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
-                    src="img/enduro.jpg"
+                    src="img/holky-original/dsc00071-min.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Boat on Calm Water"
             />
 
             <img
-                    src="img/extreme.jpg"
+                    src="img/holky-original/dsc00088-min.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Wintry Mountain Landscape"
             />
@@ -168,13 +173,13 @@
 
         <div class="col-lg-4 mb-4 mb-lg-0">
             <img
-                    src="img/extreme.jpg"
+                    src="img/holky-original/dsc09385-min.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mountains in the Clouds"
             />
 
             <img
-                    src="img/enduro.jpg"
+                    src="img/holky-original/dsc09608-min.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Boat on Calm Water"
             />
@@ -182,13 +187,13 @@
 
         <div class="col-lg-4 mb-4 mb-lg-0">
             <img
-                    src="img/enduro.jpg"
+                    src="img/holky-original/dsc09543-min.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Waves at Sea"
             />
 
             <img
-                    src="img/extreme.jpg"
+                    src="img/holky-original/dsc09228-min.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Yosemite National Park"
             />
@@ -324,6 +329,8 @@
     </div>
     <!-- Copyright -->
 </footer>
+<script type="text/javascript" src="assets/main.js"></script>
+
 <!-- Footer -->
 </body>
 </html>

@@ -7,11 +7,13 @@
 
 img {
     content-visibility: auto;
+}
 
+.girl-on-top{
+    max-width: 30em;
 }
 
 body {
-    font-family: sans-serif;
     font-size: 16px;
 }
 
@@ -32,11 +34,15 @@ body {
 }
 
 
-.nav-link {
+.hamburger-div{
+    display: none;
+}
+
+.nav-link-sm {
     font-size: 1.3em;
     width: 10em;
     color: black;
-    font-family: 'Kanit', sans-serif;
+
 
 }
 
@@ -53,8 +59,10 @@ body {
 
 /* TOP BACKGROUND AND LOGO HOLKOFF*/
 .top-intro {
-    background-image: url('img/wpbackground.jpg');
-    background: fixed;
+    width: 100%;
+    background-image: url("../img/holky-original/dsc09216-min.jpg");
+    background-color: white;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -185,39 +193,94 @@ body {
         overflow-x: hidden;
     }
 
-    .top-intro{
-        display:none;
+
+
+
+    /*HAMBURGER*/
+    .top-menu-full{
+        display: none;
     }
-    .logo-img{
-        margin-bottom: -40em;
-        z-index: 100000;
-        position: relative;
-        width: 11em;
-        transform: rotate(12deg) translate(120px, -539px) scale(1.1, 1) skew(4deg, 0deg);
+    .hamburger-div{
+        z-index: 10000;
+        display:block ;
     }
-    .navbar{
-        margin-top: -0.4em;
+    .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 1px;
+        background: white;
+        cursor: pointer;
     }
-    .top-intro{
-        background: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        max-width: 100%;
-        height: 25em;
-        opacity: 0.7;
+    .closeIcon {
+        display: none;
     }
-    .facts{
-        flex-direction: column;
+    .menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: black;
+        color: white;
+        list-style: none;
+        padding-top: 4rem;
     }
 
-    .fact-note{
-        font-size: 1em;
-        font-family: fantasy;
+    .showMenu {
+        transform: translateY(0);
     }
-    .fact-number {
+
+
+
+    .content{
+        width: 100%;
+    }
+
+
+
+    .logo-sm {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-img {
+        transform: rotate(12deg) translate(-59px, -230px) scale(1.1, 1) skew(4deg, 0deg);
+        margin-bottom: -10em;
+        width: 29em;
+    }
+
+
+    .smaller {
+        justify-content: center;
+    }
+    .top-intro{
+        height: 20em;
+    }
+
+
+    .facts {
+        flex-direction: column;
+        height: 30em;
+
+
+    }
+
+    .fact-note {
         font-size: 2em;
-        font-family: fantasy;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+    .fact-number {
+        font-size: 3em;
+        font-family: 'Bebas Neue', cursive;
+
     }
 
     .pos-f-t {
@@ -228,16 +291,13 @@ body {
         display: flex;
         flex-direction: column;
     }
-    .photo-who-we-are{
+
+    .photo-who-we-are {
         display: none;
     }
 
-    .tmp-easter{
+    .tmp-easter {
         max-width: 100%;
-    }
-
-    .card-header{
-        display: none;
     }
 
 
@@ -274,19 +334,6 @@ body {
 }
 
 
-
-@media only screen and  (max-width: 450px) {
-    html, body {
-        overflow-x: hidden;
-    }
-    .logo-img {
-        margin-bottom: -40em;
-        z-index: 100000;
-        position: relative;
-        width: 11em;
-        transform: rotate(12deg) translate(38px, -539px) scale(1.1, 1) skew(4deg, 0deg);
-    }
-}
 
 
 
