@@ -114,7 +114,7 @@ ul.navi li {
 
 .bg-container:before {
   z-index: -100;
-  background: url(src/assets/img/wp.jpg);
+  background: url(./src/assets/img/wp.jpg);
   content: "";
   background-size: cover;
   position: fixed;
