@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Lorem ipsum",
+    "options":       "Královna",
+    "selected": null
+  },
+
+  {
+    "question": "Kdo je náš prezident?",
+    "options":       "Královna",
+
+    "selected": null
+  }
+]

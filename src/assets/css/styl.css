@@ -1,0 +1,25 @@
+.galery {
+    margin: 1em;
+}
+
+
+/* BOOTSTRAP UPRAVY */
+
+
+.card-header {
+    background: inherit;
+    border: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.uni-justify-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pos-f-t {
+    display: none;
+}
