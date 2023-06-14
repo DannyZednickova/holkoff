@@ -1,10 +1,10 @@
 <template>
   <div class="content-action">
     <div class="aboutus-action">
-      <h1>Calendar</h1>
       <div class="box box-action">
         <div class="action-box">
           <div class="action-box-container">
+
             <div class="box-act number-circle">
               <div class="circle">
                 1
@@ -14,14 +14,14 @@
               <img src="/src/assets/img/dirtbike.jpg" alt="" class="action-photo">
             </div>
             <div class="box-act text-action row">
-              <H2>SMRK 5-6.8 2023 </H2>
+              <H2>SMRK 5. - 6. srpen 2023 </H2>
               <div class="progress-action row">
                 <div class="title-progress col-2">
                   Dny
                 </div>
                 <div class="progress col-10">
-                  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
-                       aria-valuemax="100">25%
+                  <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
+                       aria-valuemax="100">3 dny
                   </div>
                 </div>
               </div>
@@ -37,11 +37,11 @@
               </div>
               <div class="progress-action row">
                 <div class="title-progress col-2">
-                  Trať
+                  Motokross
                 </div>
                 <div class="progress col-10">
-                  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
-                       aria-valuemax="100">25%
+                  <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+                       aria-valuemax="100">50%
                   </div>
                 </div>
               </div>
@@ -95,8 +95,8 @@
                   Dny
                 </div>
                 <div class="progress col-10">
-                  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
-                       aria-valuemax="100">25%
+                  <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
+                       aria-valuemax="100">3 dny
                   </div>
                 </div>
               </div>
@@ -276,6 +276,7 @@ $action-background : rgba(0, 0, 0, 0.637);
   width: 86px;
   height: 86px;
   padding: 26px;
+  margin-left: 1em;
   /* background: #fff; */
   border: 3px solid #fff;
   color: #fff;

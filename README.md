@@ -27,5 +27,7 @@ netlify init
 
 ### Netlify Initialize ( after push to Git )
 ```sh
-netlify 
+netlify init
 ```
+
+net

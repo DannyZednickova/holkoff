@@ -1,52 +1,80 @@
 <template>
-  <div class="content-action">
-    Ahoj
+  <div className="content-action">
+    <div className="aboutus-action">
+      <div className="box box-action">
+        <div className="aboutus">
+          <h1>About us</h1>
+          <div className="box">
+            <ol>
+              <ul>
+                <b> # Podporujeme holky v offu </b>
+              </ul>
+              <ul>
+
+                  <b>Team Holkoff.cz </b>
+
+              </ul>
+
+            </ol>
+
+            <img className="info-img" src="/src/assets/img/extreme.jpg" alt="infojpg">
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
   </div>
+
 </template>
+
 <script>
-import { ref } from 'vue';
+import {ref} from 'vue';
 
-export default {
-  setup() {
-    const showContent1 = ref(false);
-
-    const toggleContent1 = () => {
-      showContent1.value = !showContent1.value;
-    };
-
-    return {
-      showContent1,
-      toggleContent1,
-    };
-  },
-};
+export default {}
 </script>
+
 <style lang="scss">
-$action-background : rgba(0, 0, 0, 0.637);
-
-
-
-.slide-enter-active,
-.slide-leave-active {
-  transition: all 0.3s ease-in-out;
-}
-
-.slide-enter,
-.slide-leave-to {
-  transform: translateX(100%);
-  opacity: 0;
-}
-
-.slide-leave,
-.slide-enter-to {
-  transform: translateX(0);
-  opacity: 1;
-}
-
-.button-action {
+$action-background: rgba(0, 0, 0, 0.637);
+.aboutus {
+  background-color: $action-background;
+  padding: 2em;
+  height: 20em;
   display: flex;
+  flex-wrap: inherit;
+  flex-direction: column;
+  flex: 1;
+  align-content: center;
   justify-content: center;
+  color: white;
+  font-size: 2em;
 }
+
+.info-img {
+  max-width: 20em;
+  z-index: 100000;
+  position: relative;
+  transform: rotate(8deg) translate(630px, -76px) scale(1.1, 1) skew(0deg, 0deg);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-act {
+  padding: 2em;
+}
+
+.aboutus-action h1 {
+  padding-top: 2EM;
+  padding-bottom: 2em;
+  padding-left: 2em;
+}
+
 
 .content-action {
   position: relative;
@@ -57,4 +85,6 @@ $action-background : rgba(0, 0, 0, 0.637);
   width: 80%;
   display: flex;
 }
+
+
 </style>

@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e73067bb-f478-400d-b9e4-0092d5c90fe0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dist - Copy/_redirects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist - Copy/assets/dirtbike-817ae922.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist - Copy/assets/holkoff-nobackgr-7e1f7900.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist - Copy/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist - Copy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/extreme-c01be008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/index-baa927ae.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/index-f142d65c.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/dist/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index-13ff67fd.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist - Copy/assets/index-13ff67fd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index-7cdda372.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist - Copy/assets/index-7cdda372.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/wp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist - Copy/assets/wp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Actions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Actions.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Info.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +96,8 @@
       <workItem from="1686675798567" duration="2865000" />
       <workItem from="1686721768789" duration="117000" />
       <workItem from="1686721925925" duration="11000" />
+      <workItem from="1686766672993" duration="516000" />
+      <workItem from="1686767232131" duration="4079000" />
     </task>
     <servers />
   </component>
@@ -85,5 +106,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Actions.vue</url>
+          <line>183</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
