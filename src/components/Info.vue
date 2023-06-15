@@ -10,6 +10,16 @@
                     <b> # Podporujeme holky v offu </b>
                   </ul>
                   <ul>
+                    <p>HolkOFF je komunita holek, které offroad jezdí, nebo ho jezdit chtějí, a hledají kámošky s tímhle ne až tak tradičním koníčkem. </p>
+
+                      <p>Společně pořádáme nízkonákladové akce, které mají za cíl posilovat, motivovat a přivádět k tomuto sportu co nejvíce holek. </p>
+                    <p> Díky projektu HolkOFF je nás také víc vidět a slyšet, a tak se nám hlásí nové dívky, ženy, mámy. Je nám ale jasné, že ne se vším si
+                     zvládneme poradit jen v holčičí partě, a tak jsme rády, že nám pomáhají naši kluci a kamarádi. </p>
+                     Přítomnost mužů je ale dána podmínkou 1+1,
+                      takže každá holka si smí vzít jen jednoho svého ochránce s sebou na akci, ne víc. Sám chlap se na naší akci, pokud se nejedná o trenéra,
+                      nebo sponzora, určitě nedostane. Naším cílem je podpořit růst počtu holčičích jezdkyň v České republice a pomáhat jim se zlepšovat."
+
+                    
                    <p>Vítejte v naší skvělé skupině žen, které spojuje vášeň pro motokros, enduro a cestování na motorkách.
                     </p>
                     Jsme silnou komunitou holek, které společně čelý výzvá.
