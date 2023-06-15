@@ -81,8 +81,8 @@ $action-background: rgba(0, 0, 0, 0.637);
   top: 10em;
   font-size: 1em;
   z-index: 100;
-  margin: 0 auto;
-  width: 80%;
+   /*margin: 0 auto;*/
+   width: 100%;
   display: flex;
 }
 
