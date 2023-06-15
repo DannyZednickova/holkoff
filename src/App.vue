@@ -3,6 +3,10 @@
     <div class="navigation">
       <div class="nav">
         <ul class="navi">
+        
+             <img class="top-logo" src="/src/assets/img/holkoff-nobackgr.png" alt="logopng">
+        
+         
           <li>
             <router-link to="/"> Home</router-link>
           </li>
@@ -41,7 +45,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 
 
 #app {
@@ -61,12 +65,23 @@ opacity: 1;
 }
 
 
+.top-logo{
+    /* margin-bottom: -40em; */
+    z-index: 100000;
+    position: relative;
+    width: 10em;
+    transform: rotate(0deg) translate(-10px, -7px) scale(1.1, 1) skew(4deg, 0deg);
+}
+
+
 
 a {
+  font-family: 'Karla', sans-serif !important;
   color:black !important;
   text-decoration: none !important;
 
   &:hover {
+    font-family: 'Karla', sans-serif !important;
     color:black;
     text-decoration: none;
     margin-bottom: -3px;
