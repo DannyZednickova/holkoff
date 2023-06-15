@@ -1,10 +1,9 @@
 <template>
   <div class="content-action">
-    <div class="aboutus-action">
-      <div class="box box-action">
+    <div class="action">
+      <div class="actionbox">
         <div class="action-box">
           <div class="action-box-container">
-
             <div class="box-act number-circle">
               <div class="circle">
                 1
@@ -246,7 +245,7 @@ $action-background : rgba(0, 0, 0, 0.637);
   color: black;
 }
 
-.aboutus-action {
+.action{
   height: 100%;
   display: flex;
   flex-wrap: inherit;
@@ -257,12 +256,12 @@ $action-background : rgba(0, 0, 0, 0.637);
   color: white;
 }
 
-.aboutus-action h1 {
-  padding-top: 2EM;
+.action h1 {
+  padding-top: 2em;
   padding-left: 2em;
 }
 
-.box {
+.actionbox {
   display: flex;
   flex-direction: column;
 }
