@@ -9,7 +9,10 @@
           Místo: Smrk
         </div>
     </div>
-  </div>
+   
+
+   
+  </div> 
 
 
 

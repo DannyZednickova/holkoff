@@ -16,7 +16,8 @@
                   <p>Společně pořádáme nízkonákladové akce, které mají za cíl posilovat, motivovat a přivádět k tomuto sportu co nejvíce holek. </p>
                   <p> Díky projektu HolkOFF je nás také víc vidět a slyšet, a tak se nám hlásí nové dívky, ženy, mámy. Je nám ale jasné, že ne se vším si zvládneme poradit jen v holčičí partě, a tak jsme rády, že nám pomáhají naši kluci a kamarádi. </p>
                   Přítomnost mužů je ale dána podmínkou 1+1, takže každá holka si smí vzít jen jednoho svého ochránce s sebou na akci, ne víc. Sám chlap se na naší akci, pokud se nejedná o trenéra, nebo sponzora, určitě nedostane. Naším cílem je podpořit růst počtu holčičích jezdkyň v České republice a pomáhat jim se zlepšovat."
-
+                  
+                  <img class="img1" src="/src/assets/img/extreme.jpg" alt="infojpg">
                   <p>Vítejte v naší skvělé skupině žen, které spojuje vášeň pro motokros, enduro a cestování na motorkách. </p>
                   Jsme silnou komunitou holek, které společně čelý výzvá.
                   <br> Organizujeme akce, podporujeme se a sdílíme nezapomenutelné zážitky.
@@ -32,7 +33,7 @@
 
               </ol>
 
-              <img class="info-img" src="/src/assets/img/extreme.jpg" alt="infojpg">
+              <img class="img2" src="/src/assets/img/extreme.jpg" alt="infojpg">
 
             </div>
           </div>
@@ -97,7 +98,14 @@ $action-background: rgba(0, 0, 0, 0.637);
   margin: 0 auto;
 }
 
-.info-img {
+.img1 {
+  max-width: 20em;
+  z-index: 100000;
+  position: relative;
+  /*transform: rotate(8deg) translate(630px, -76px) scale(1.1, 1) skew(0deg, 0deg);*/
+}
+
+.img2 {
   max-width: 20em;
   z-index: 100000;
   position: relative;

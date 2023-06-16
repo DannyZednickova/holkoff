@@ -33,6 +33,10 @@
     </router-view>
 
   </div>
+  <div class="partners">
+      <img src="/src/assets/img/motosvet_logo.png" alt="" class="motosvetlogo">
+  </div>
+
 
 </template>
 
@@ -73,7 +77,9 @@ opacity: 1;
     transform: rotate(0deg) translate(-10px, -7px) scale(1.1, 1) skew(4deg, 0deg);
 }
 
-
+.motosvetlogo{
+  width: 20em;
+}
 
 a {
   font-family: 'Karla', sans-serif !important;
