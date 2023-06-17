@@ -3,6 +3,10 @@
     <div class="navigation">
       <div class="nav">
         <ul class="navi">
+        
+             <img class="top-logo" src="/src/assets/img/holkoff-nobackgr.png" alt="logopng">
+        
+         
           <li>
             <router-link to="/"> Home</router-link>
           </li>
@@ -29,6 +33,10 @@
     </router-view>
 
   </div>
+  <div class="partners">
+      <img src="/src/assets/img/motosvet_logo.png" alt="" class="motosvetlogo">
+  </div>
+
 
 </template>
 
@@ -41,7 +49,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 
 
 #app {
@@ -61,35 +69,48 @@ opacity: 1;
 }
 
 
+.top-logo{
+    /* margin-bottom: -40em; */
+    z-index: 100000;
+    position: relative;
+    width: 10em;
+    transform: rotate(0deg) translate(-10px, -7px) scale(1.1, 1) skew(4deg, 0deg);
+}
+
+.motosvetlogo{
+  width: 20em;
+}
 
 a {
-  color: white !important;
+  font-family: 'Karla', sans-serif !important;
+  color:black !important;
   text-decoration: none !important;
 
   &:hover {
-    color: white;
+    font-family: 'Karla', sans-serif !important;
+    color:black;
     text-decoration: none;
-    border-bottom: pink 3px solid;
     margin-bottom: -3px;
   }
 
 }
 
 a.router-link-active {
-  border-bottom: pink 4px solid;
+  color:coral;
 }
 
 ul.navi {
-  margin-right: 6em;
+  margin-top: 0.5em;
+  margin-right: 3em;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
 }
 
 ul.navi li {
-  font-family: "Anton", sans-serif;
+  margin-top: 0.3em;
   color: white;
-  margin-top: 1em;
+  margin-top: em;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -97,17 +118,17 @@ ul.navi li {
   width: 5em;
   height: 3em;
   text-align: center;
-  font-weight: 300;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 
 .navigation {
+  background-color: white;
   position: fixed;
   z-index: 1000;
   display: flex;
-  height: 8em;
-  justify-content: end;
+  height: 6em;
+  justify-content: center;
   width: 100%;
 
 }

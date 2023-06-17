@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e73067bb-f478-400d-b9e4-0092d5c90fe0" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/@vueuse_motion.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/@vueuse_motion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/@vueuse_motion.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/@vueuse_motion.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-IDMHQ7FM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-IDMHQ7FM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-IDMHQ7FM.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-IDMHQ7FM.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Actions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Actions.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Info.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info.vue" afterDir="false" />
+>>>>>>> 27eec89af5a7e9669537ed236ff14f04bfc234c6
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +95,15 @@
       <workItem from="1686721768789" duration="117000" />
       <workItem from="1686721925925" duration="11000" />
       <workItem from="1686766672993" duration="516000" />
+<<<<<<< HEAD
       <workItem from="1686767232131" duration="4869000" />
       <workItem from="1686772227504" duration="8000" />
       <workItem from="1686987493989" duration="196000" />
+=======
+      <workItem from="1686767232131" duration="4079000" />
+      <workItem from="1686846445638" duration="394000" />
+      <workItem from="1686846905112" duration="1031000" />
+>>>>>>> 27eec89af5a7e9669537ed236ff14f04bfc234c6
     </task>
     <servers />
   </component>
@@ -91,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -102,4 +125,6 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+>>>>>>> 27eec89af5a7e9669537ed236ff14f04bfc234c6
 </project>
