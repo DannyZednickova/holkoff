@@ -18,9 +18,7 @@
    
   </div> 
 
-  <div class="partners">
-      <img src="/src/assets/img/motosvet_logo.png" alt="" class="motosvetlogo">
-  </div>
+
 
 
 </template>
@@ -65,6 +63,18 @@ var x = setInterval(function() {
 
 <style scoped lang="scss">
 $action-background : rgba(0, 0, 0, 0.637);
+
+.partners-cont {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.partners {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
 
 a{
 color: white !important;
