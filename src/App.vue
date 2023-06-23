@@ -33,9 +33,7 @@
     </router-view>
 
   </div>
-  <div class="partners">
-      <img src="/src/assets/img/motosvet_logo.png" alt="" class="motosvetlogo">
-  </div>
+
 
 
 </template>

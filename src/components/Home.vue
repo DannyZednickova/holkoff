@@ -3,10 +3,14 @@
   <div class ="content">
     <img class="logo-img" src="/src/assets/img/holkoff-nobackgr.png" alt="logopng">
     <div class="alert-box">
-        <div class="alert-one"> Nezapomeň hlasovat v naší anketě na FB! :) </div>
-        <div class="countdown">
-          Další trénink za: <span id="demo">  </span> <br>
-          Místo: Smrk
+        <div class="alert-one"> Stránky jsou momentálně ve výstavbě! 
+        <br>
+          Tak nám to odpusť, že to ještě nemáme, vneku je hezky :) <br>
+          <br>
+        Zatím se  můžeš podívat na <br>
+        <a href ="https://facebook.com/holkoff" style="font-size: 2em;"> FB HOLKOFFu </a>
+          <!--Další trénink za: <span id="demo">  </span> <br>
+          Místo: Smrk-->
         </div>
     </div>
    
@@ -14,7 +18,9 @@
    
   </div> 
 
-
+  <div class="partners">
+      <img src="/src/assets/img/motosvet_logo.png" alt="" class="motosvetlogo">
+  </div>
 
 
 </template>
@@ -59,6 +65,11 @@ var x = setInterval(function() {
 
 <style scoped lang="scss">
 $action-background : rgba(0, 0, 0, 0.637);
+
+a{
+color: white !important;
+}
+
 .logo-img {
   margin-bottom: -40em;
   z-index: 100000;
