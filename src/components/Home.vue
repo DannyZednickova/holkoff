@@ -108,4 +108,37 @@ color: white !important;
   font-size: 1.5em;
   transform: rotate(0deg) translate(332px, 107px) scale(1.1, 1) skew(0deg, 0deg)
 }
+
+@media  (max-width: 600px) {
+  .content {
+    position: inherit;
+    /* top: 10em; */
+    /* font-size: 1em; */
+    /* z-index: 100; */
+    /* margin: 0 30%; */
+    /* width: 70%; */
+    /* display: flex; */
+}
+
+  .logo-img {
+    /* margin-bottom: -40em; */
+    /* z-index: 100000; */
+    /* position: relative; */
+    max-width: 20em;
+    /* max-height: 25em; */
+    transform: rotate(0deg) translate(0px, 380px) scale(1.1, 1) skew(4deg, 0deg);
+
+}
+.alert-box {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 2em;
+    color: white;
+    display: flex;
+    max-width: 100%;
+    /* font-size: 1.5em; */
+    transform: rotate(0deg) translate(0px, 107px) scale(1.1, 1) skew(0deg, 0deg);
+}
+
+}
 </style>

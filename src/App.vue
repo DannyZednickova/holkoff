@@ -49,9 +49,7 @@ export default {
 <style lang="scss" >
 
 
-#app {
-  height: 100%;
-}
+
 
 .fade-enter-from{
   opacity:0
@@ -156,6 +154,35 @@ ul.navi li {
   width: 29em;
 
   transform: rotate(0deg) translate(378px, -7px) scale(1.1, 1) skew(4deg, 0deg);
+}
+
+
+
+@media  (max-width: 600px) {
+
+.top-logo{
+  
+    z-index: 100000;
+    position: relative;
+    max-width: 5em;
+    transform: rotate(0deg) translate(-18px, -7px) scale(1.1, 1) skew(4deg, 0deg);
+}
+ul.navi li {
+    margin-top: 0.3em;
+    color: white;
+    margin-top: em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 4em;
+    height: 3em;
+    text-align: center;
+    font-size: 1em;
+   
+}
+
+
 }
 
 </style>
