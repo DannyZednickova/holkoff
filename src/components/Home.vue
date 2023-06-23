@@ -86,7 +86,7 @@ color: white !important;
   position: relative;
   max-width: 20em;
   max-height: 25em;
-  transform: rotate(0deg) translate(267px, -46px) scale(1.1, 1) skew(4deg, 0deg);
+  transform: rotate(0deg) translate(907px, -46px) scale(1.1, 1) skew(4deg, 0deg);
 
 }
 
@@ -109,7 +109,7 @@ color: white !important;
   transform: rotate(0deg) translate(332px, 107px) scale(1.1, 1) skew(0deg, 0deg)
 }
 
-@media  (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .content {
     position: inherit;
     /* top: 10em; */
@@ -124,7 +124,7 @@ color: white !important;
     /* margin-bottom: -40em; */
     /* z-index: 100000; */
     /* position: relative; */
-    max-width: 20em;
+    max-width: 23em;
     /* max-height: 25em; */
     transform: rotate(0deg) translate(0px, 380px) scale(1.1, 1) skew(4deg, 0deg);
 
