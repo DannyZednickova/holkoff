@@ -3,11 +3,14 @@
   <div class ="content">
     <img class="logo-img" src="/src/assets/img/holkoff-nobackgr.png" alt="logopng">
     <div class="alert-box">
-        <div class="alert-one"> Nezapomeň hlasovat v naší anketě na FB! :) </div>
+      <span style ="font-size: 2em;">STRÁNKY JSOU VE VÝSTAVBĚ!</span><br>
+      Na stránkách se pracuje, ale venku je hezky, tak nám odpusť, že to ještě nemáme ...
+      <p></p>Zatím se můžeš podívat na náš <a href="https://www.facebook.com/holkoff" style = "color:white ;font-size:2em" >FB HOLKOFFu </a>
+       <!-- <div class="alert-one"> Nezapomeň hlasovat v naší anketě na FB! :) </div>
         <div class="countdown">
           Další trénink za: <span id="demo">  </span> <br>
           Místo: Smrk
-        </div>
+        </div>--> 
     </div>
    
 
@@ -58,6 +61,10 @@ var x = setInterval(function() {
 
 <style scoped lang="scss">
 $action-background : rgba(0, 0, 0, 0.637);
+
+a{
+  color:white !important;
+}
 .logo-img {
   margin-bottom: -40em;
   z-index: 100000;
