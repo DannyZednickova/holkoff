@@ -34,11 +34,7 @@
 
   </div>
   <div class="partners">
-    <div class="partners-center">
       <img src="/src/assets/img/motosvet_logo.png" alt="" class="motosvetlogo">
-      <img src="/src/assets/img/logo_aci.png" alt="" class="acilogo">
-    </div>
-
   </div>
 
 
@@ -72,24 +68,7 @@ export default {
 opacity: 1;
 }
 
-.partners {
-  height: 13em;
-  position:fixed;
-  bottom:0;
-  width:100%;
-}
 
-.partners-center{
-  max-height: 100%;
-  display: flex;
-  display: -webkit-flex;
-  flex-flow: wrap;
-  -webkit-flex-flow: wrap;
-  -webkit-justify-content: space-between;
-  justify-content: center;
-  align-items: center;
-  -webkit-align-items: center;
-}
 .top-logo{
     /* margin-bottom: -40em; */
     z-index: 100000;
@@ -98,9 +77,6 @@ opacity: 1;
     transform: rotate(0deg) translate(-10px, -7px) scale(1.1, 1) skew(4deg, 0deg);
 }
 
-.acilogo {
-  width: 10em;
-}
 .motosvetlogo{
   width: 20em;
 }
