@@ -5,7 +5,7 @@
     <div class="alert-box">
         <div class="alert-one"> Stránky jsou momentálně ve výstavbě! 
         <br>
-          Tak nám to odpusť, že to ještě nemáme, vneku je hezky :) <br>
+          Tak nám to odpusť, že to ještě nemáme, venku je hezky :) <br>
           <br>
         Zatím se  můžeš podívat na <br>
         <a href ="https://facebook.com/holkoff" style="font-size: 2em;"> FB HOLKOFFu </a>
