@@ -15,30 +15,30 @@
             <div class="box-act text-action row">
               <H2>SMRK 5. - 6. srpen 2023 </H2>
               <div class="progress-action row">
-                <div class="title-progress col-2">
+                <div class="title-progress col-2 col-sm-4">
                   Dny
                 </div>
-                <div class="progress col-10">
+                <div class="progress col-10 row col-sm-8">
                   <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
                        aria-valuemax="100">3 dny
                   </div>
                 </div>
               </div>
               <div class="progress-action row">
-                <div class="title-progress col-2">
+                <div class="title-progress col-2 col-sm-4">
                   Enduro
                 </div>
-                <div class="progress col-10">
+                <div class="progress col-10 col-sm-8">
                   <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
                        aria-valuemax="100">25%
                   </div>
                 </div>
               </div>
               <div class="progress-action row">
-                <div class="title-progress col-2">
+                <div class="title-progress col-2 col-sm-4">
                   Motokross
                 </div>
-                <div class="progress col-10">
+                <div class="progress col-10 col-sm-8">
                   <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
                        aria-valuemax="100">50%
                   </div>
@@ -48,7 +48,7 @@
                 <div class="title-progress col-2">
                   Obtížnost
                 </div>
-                <div class="progress col-10">
+                <div class="progress col-10 row">
                   <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
                        aria-valuemax="100">25%
                   </div>
@@ -90,10 +90,10 @@
             <div class="box-act text-action row">
               <H2>SMRK 5-6.8 2023 </H2>
               <div class="progress-action row">
-                <div class="title-progress col-2">
+                <div class="title-progress col-2 col-sm-3">
                   Dny
                 </div>
-                <div class="progress col-10">
+                <div class="progress col-10 col-sm-9">
                   <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
                        aria-valuemax="100">3 dny
                   </div>
@@ -103,7 +103,7 @@
                 <div class="title-progress col-2">
                   Enduro
                 </div>
-                <div class="progress col-10">
+                <div class="progress col-10 ">
                   <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
                        aria-valuemax="100">25%
                   </div>
@@ -246,6 +246,8 @@ $action-background : rgba(0, 0, 0, 0.637);
 }
 
 .action{
+  margin-bottom: 10em;
+
   height: 100%;
   display: flex;
   flex-wrap: inherit;
@@ -304,5 +306,34 @@ $action-background : rgba(0, 0, 0, 0.637);
   display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+  .col-2 {
+    flex: 0 0 auto;
+    width: 6em!important;
+  }
 
+  .title-progress{
+    text-align: center;
+
+  }
+
+
+.action-box-container {
+  padding-top: 4em;
+  background-color: rgba(0, 0, 0, 0.637);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+
+}
+  .circle{
+    display: none;
+  }
+
+  .progress-action{
+    margin-bottom: 1em;
+  }
+}
 </style>

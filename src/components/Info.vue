@@ -55,6 +55,11 @@ export default {}
 <style lang="scss">
 $action-background: rgba(0, 0, 0, 0.637);
 
+ol, ul {
+  padding-left: 0em !important;
+}
+
+
 .info {
     height: 100%;
     display: flex;
@@ -79,6 +84,7 @@ $action-background: rgba(0, 0, 0, 0.637);
 }
 
 .aboutus {
+  margin-bottom: 10em;
   background-color: $action-background;
   padding: 2em;
   height: 20em;
@@ -129,4 +135,21 @@ $action-background: rgba(0, 0, 0, 0.637);
   display: flex;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .text-area-info {
+    color: white;
+    font-size: 1em;
+    max-width: 50em;
+    margin: 0 auto;
+  }
+
+
+  .img2{
+    display: none;
+  }
+  .img1{
+    display: none;
+  }
+}
 </style>

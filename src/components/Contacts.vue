@@ -77,6 +77,7 @@ $action-background: rgba(0, 0, 0, 0.637);
 
 }
 .aboutus {
+  margin-bottom: 10em;
   background-color: $action-background;
   padding: 2em;
   height: 20em;

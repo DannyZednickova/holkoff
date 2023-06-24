@@ -33,6 +33,20 @@
     </router-view>
 
   </div>
+  <div class="partners-box">
+    <div class="partners">
+      <div class="motosvet-img-cont">
+        <img src="src/assets/img/logos/motosvet_logo.png" alt="" class="img_motosvet">
+      </div>
+      <div class="aci_logo-img-cont">
+      <img src="src/assets/img/logos/aci_logo.png" alt="">
+        </div>
+      <div class="lr_logo-img-cont">
+      <img src="src/assets/img/logos/lr_logo.png" alt="" class="img_lr">
+        </div>
+    </div>
+  </div>
+
 
 
 </template>
@@ -41,14 +55,30 @@
 
 export default {
   name: "Navigation",
-  
+
 
 }
 </script>
 
 <style lang="scss" >
 
+.partners-box{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.partners
+{
+  display: flex;
+  justify-content: space-around;
+}
+.img_motosvet{
+  width: 10em;
+}
 
+.img_lr{
+  width: 10em;
+}
 
 
 .fade-enter-from{
@@ -105,7 +135,7 @@ ul.navi {
 ul.navi li {
   margin-top: 0.3em;
   color: white;
-  margin-top: em;
+  /*margin-top: em;*/
   justify-content: center;
   display: flex;
   align-items: center;
