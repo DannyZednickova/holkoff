@@ -36,13 +36,13 @@
   <div class="partners-box">
     <div class="partners">
       <div class="motosvet-img-cont">
-        <img src="src/assets/img/logos/motosvet_logo.png" alt="" class="img_motosvet">
+        <img src="/src/assets/img/logos/motosvet_logo.png" alt="" class="img_motosvet">
       </div>
       <div class="aci_logo-img-cont">
-      <img src="src/assets/img/logos/aci_logo.png" alt="">
+      <img src="/src/assets/img/logos/aci_logo.png" alt="">
         </div>
       <div class="lr_logo-img-cont">
-      <img src="src/assets/img/logos/lr_logo.png" alt="" class="img_lr">
+      <img src="/src/assets/img/logos/lr_logo.png" alt="" class="img_lr">
         </div>
     </div>
   </div>
