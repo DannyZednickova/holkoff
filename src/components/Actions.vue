@@ -13,34 +13,34 @@
               <img src="/src/assets/img/dirtbike.jpg" alt="" class="action-photo">
             </div>
             <div class="box-act text-action row">
-              <H2>SMRK 5. - 6. srpen 2023 </H2>
+              <H2>SMRK JEDNA 5-6.8 2023 </H2>
               <div class="progress-action row">
-                <div class="title-progress col-2 col-sm-4">
+                <div class="title-progress col-2 col-sm-3">
                   Dny
                 </div>
-                <div class="progress col-10 row col-sm-8">
+                <div class="progress col-10 col-sm-9">
                   <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
                        aria-valuemax="100">3 dny
                   </div>
                 </div>
               </div>
               <div class="progress-action row">
-                <div class="title-progress col-2 col-sm-4">
+                <div class="title-progress col-2">
                   Enduro
                 </div>
-                <div class="progress col-10 col-sm-8">
+                <div class="progress col-10 ">
                   <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
                        aria-valuemax="100">25%
                   </div>
                 </div>
               </div>
               <div class="progress-action row">
-                <div class="title-progress col-2 col-sm-4">
-                  Motokross
+                <div class="title-progress col-2">
+                  Trať
                 </div>
-                <div class="progress col-10 col-sm-8">
-                  <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
-                       aria-valuemax="100">50%
+                <div class="progress col-10">
+                  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+                       aria-valuemax="100">25%
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@
                 <div class="title-progress col-2">
                   Obtížnost
                 </div>
-                <div class="progress col-10 row">
+                <div class="progress col-10">
                   <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
                        aria-valuemax="100">25%
                   </div>
@@ -57,26 +57,19 @@
             </div>
             <div class="button-action row toggle-button">
               <div class="col-12">
-                <button @click="toggleContent1" type="button" class="btn btn-primary btn-cus-action">Více info</button>
+                <button @click="toggleContent2" type="button" class="btn btn-primary btn-cus-action">Více info</button>
               </div>
             </div>
           </div>
           <transition>
-            <div v-if="showContent1" class="row col-12 action-text">
+            <div v-if="showContent2" class="row col-12 action-text">
 
-            <p>Sweet roll danish icing pie donut cupcake muffin fruitcake. Brownie cookie bonbon gummies croissant pie.
-             Biscuit tootsie roll jujubes bonbon cake candy canes.
-            </p>
-              <p>
-              Icing cake apple pie apple pie marzipan bonbon macaroon jujubes brownie.Brownie cookie bonbon gummies croissant pie.
-                Biscuit tootsie roll jujubes bonbon cake candy canes.Brownie cookie bonbon gummies croissant pie.
-                Biscuit tootsie roll jujubes bonbon cake candy canes.Brownie cookie bonbon gummies croissant pie.
-                Biscuit tootsie roll jujubes bonbon cake candy canes.
-              </p>
+              Sweet roll danish icing pie donut cupcake muffin fruitcake. Brownie cookie bonbon gummies croissant pie.
+              Biscuit tootsie roll jujubes bonbon cake candy canes. Icing cake apple pie apple pie marzipan bonbon macaroon jujubes brownie.
             </div>
-      </transition>
+          </transition>
 
-         </div>
+        </div>
          <div class="action-box">
           <div class="action-box-container">
             <div class="box-act number-circle">
@@ -88,7 +81,7 @@
               <img src="/src/assets/img/dirtbike.jpg" alt="" class="action-photo">
             </div>
             <div class="box-act text-action row">
-              <H2>SMRK 5-6.8 2023 </H2>
+              <H2>SMRK SVA 5-6.8 2023 </H2>
               <div class="progress-action row">
                 <div class="title-progress col-2 col-sm-3">
                   Dny
@@ -181,7 +174,7 @@ export default {
 </script>
 
 <style lang="scss">
-$action-background : rgba(0, 0, 0, 0.637);
+$action-background : rgba(0, 0, 0, 0.737);
 
 .v-enter-active,
 .v-leave-active {

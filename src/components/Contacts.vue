@@ -1,8 +1,8 @@
 <template>
   <div class="content-action">
-    <div class="info">
-      <div class="info-box">
-        <div class="aboutus">
+    <div class="questions">
+      <div class="questions-box">
+        <div class="quest-text-box">
           <h1>About us</h1>
           <div class="box-inner">
             <div class="text-area">
@@ -52,9 +52,10 @@ export default {}
 </script>
 
 <style lang="scss">
-$action-background: rgba(0, 0, 0, 0.637);
+$action-background: rgba(0, 0, 0, 0.737);
 
-.info {
+
+.questions {
   height: 100%;
   display: flex;
   flex-wrap: inherit;
@@ -65,18 +66,18 @@ $action-background: rgba(0, 0, 0, 0.637);
   color: white;
 }
 
-.info h1 {
+.questions h1 {
   padding-top: 2em;
   padding-left: 2em;
 }
 
-.info-box{
+.questions-box{
 
   display: flex;
   flex-direction: column;
 
 }
-.aboutus {
+.quest-text-box {
   margin-bottom: 10em;
   background-color: $action-background;
   padding: 2em;

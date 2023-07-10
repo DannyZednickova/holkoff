@@ -4,6 +4,7 @@ import App from "@/App.vue";
 import Info from "../components/Info.vue";
 import Home from "../components/Home.vue";
 import Actions from "../components/Actions.vue";
+import Questions from "../components/Questions.vue";
 import Contacts from "../components/Contacts.vue";
 
 const router = createRouter({
@@ -24,6 +25,12 @@ const router = createRouter({
     {
       path: '/actions',
       component: Actions,
+
+
+    },
+    {
+      path: '/questions',
+      component: Questions,
 
 
     },

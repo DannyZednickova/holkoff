@@ -11,11 +11,13 @@
             <router-link to="/"> Home</router-link>
           </li>
           <li>
-            <router-link to="/info"> Info</router-link>
+            <router-link to="/info"> O nás</router-link>
           </li>
           <li>
             <router-link to="/actions"> Akce</router-link>
-
+          </li>
+          <li>
+            <router-link to="/questions"> Q&A</router-link>
           </li>
           <li>
             <router-link to="/contacts"> Kontakt</router-link>
